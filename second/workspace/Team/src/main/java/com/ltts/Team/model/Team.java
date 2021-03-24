@@ -19,7 +19,7 @@ public class Team {
 		return teamno;
 	}
 	public void setTeamno(int teamno) {
-		this.teamno = teamno;
+		this.teamno = teamno;  
 	}
 	public String getTeamname() {
 		return teamname;

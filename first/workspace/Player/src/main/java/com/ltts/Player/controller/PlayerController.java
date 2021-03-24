@@ -16,7 +16,7 @@ public class PlayerController {
 	@Autowired
 	PlayerDao pd;
 	@RequestMapping("/player")
-	public List<Player> getPlayers()
+	public List<Player> getAllPlayers()
 	{
 		return pd.getAllPlayers();
 	}
